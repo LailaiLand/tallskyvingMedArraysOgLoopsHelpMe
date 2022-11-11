@@ -1,0 +1,16 @@
+.p {
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+    grid-template-rows: repeat(3, 50px);
+    
+}
+.b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    border: solid red 2px;
+    background-color: cornflowerblue;
+    font-weight: bolder;
+    justify-content: center;
+}
